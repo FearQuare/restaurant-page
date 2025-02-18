@@ -1,6 +1,6 @@
 export default function homePage() {
-    const content = document.createElement("div");
-    content.id = "content";
+    const content = document.getElementById("content");
+    content.innerHTML = ""; 
 
     const about = document.createElement("div");
     about.className = "about";
